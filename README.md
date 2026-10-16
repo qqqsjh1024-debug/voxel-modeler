@@ -1,6 +1,6 @@
 # 图片转体素模型
 
-> **3D 立体像素风格，把喜欢的东西随手拍下来，建模成 3D 立体图形，实现赛博永生。**
+> **3D立体像素风格，把喜欢的东西随手拍下来，建模成3D立体图形，实现赛博永生。**
 
 一个让 Codex 根据你上传的照片，制作体素 3D 模型的技能。
 
@@ -22,10 +22,10 @@
 ```powershell
 $skillsDir = Join-Path $env:USERPROFILE '.codex\skills'
 New-Item -ItemType Directory -Path $skillsDir -Force | Out-Null
-git clone https://github.com/OWNER/voxel-modeler.git (Join-Path $skillsDir 'voxel-modeler')
+git clone https://github.com/qqqsjh1024-debug/voxel-modeler.git (Join-Path $skillsDir 'voxel-modeler')
 ```
 
-将 `OWNER` 替换成此仓库的 GitHub 用户名或组织名。也可以只在一个项目中使用：把仓库内容放入该项目的 `.agents/skills/voxel-modeler/`。
+也可以只在一个项目中使用：把仓库内容放入该项目的 `.agents/skills/voxel-modeler/`。
 
 重启或刷新 Codex 后，该技能会自动匹配图片建模请求，也可以在消息中显式调用：
 
