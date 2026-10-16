@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片转体素模型"
+  short_description: "按参考图片生成可旋转的体素模型，并导出 JSON 和 GLB"
+  default_prompt: "使用 $voxel-modeler 按这张参考图制作可旋转的体素 3D 模型，并导出 JSON 和 GLB。"
